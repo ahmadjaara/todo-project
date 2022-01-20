@@ -1,0 +1,38 @@
+header{
+    padding: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content:space-between ;
+    background-color: grey;
+}
+#h1{
+    color: green;
+    display: inline;
+
+}
+.log{
+    width: 50px;
+    display: inline;
+    position: absolute;
+    right: auto;
+    left: 12%;
+    top: 6%;
+}
+.ll>li{
+    display: inline-flex;
+    margin: 10px;
+    justify-content: flex-end;  
+}
+main{
+    padding:50px;
+
+}
+table{
+ padding: 20px;
+ width: 100%;    
+}
+table.tt{
+ text-align: left ;
+}
+
