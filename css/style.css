@@ -4,7 +4,7 @@ header{
     flex-wrap: wrap;
     margin: 10px;
     justify-content:space-between ;
-    background-color: grey;
+    background-color:rgb(118, 189, 141);
 }
 #h1{
     color: green;
@@ -19,20 +19,60 @@ header{
     left: 12%;
     top: 6%;
 }
+nav{
+    padding-right: 2%;
+}
 .ll>li{
     display: inline-flex;
     margin: 10px;
-    justify-content: flex-end;  
+    justify-content: flex-end; 
 }
 main{
     padding:50px;
-
+}
+div.heads{
+    color: slateblue;
+    padding-left: 25px;
 }
 table{
+ width: 50%;
  padding: 20px;
- width: 100%;    
+ text-align: center ;
+ position: relative;
+ left: 20px;
 }
-table.tt{
- text-align: left ;
+ td,th{
+ background-color: lavenderblush;
+ border: 1px solid black;
 }
+.pr{
+    position: relative;
+    left: 558px; 
+    bottom: 60px;
+    display: flex;
+}
+.end{
+    position :relative ;
+    left :25px;
+    bottom: 40px;
+}
+p.pr2 {
+font-size: 23px;  
+  text-transform: uppercase;
+}
+ol.end2{
+    font-size: 20px;
+}
+.img2{
+    padding-left: 50px;
+    padding-top: 40px;
+    width: 250px;
+}
+footer>p{
+    padding-left: 50%;
+}
+
+
+
+
 
