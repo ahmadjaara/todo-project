@@ -20,6 +20,45 @@ if (age<=0 || age==null  ){
     while(age2==false)
 }
 
+let answer1 = prompt("do you love chocolate ?" ,"yes / no ");
+
+let answer2 = prompt("do you love cats ?" ,"yes / no ");
+
+let answer3 = prompt("do you hate dogs ?" ,"yes / no ");
+
+if(answer1 != "yes" ){
+    if(answer1 != "no" ){
+        answer1 ="invalid"
+    }}
+
+if(answer2 != "yes" ){
+    if(answer2 != "no" ){
+        answer2 ="invalid"
+    }}
+if(answer3 != "yes" ){
+    if(answer3 != "no" ){
+        answer3 ="invalid"
+    }}
+
+const answers =[answer1,answer2,answer3];
+
+console.log(answers);
+
+let text = "";
+
+for(const x of answers ){
+    text += x + "\n"  ;
+}
+console.log(text);
+
+//or we can use the below method 
+// for(var i=0; i< answers.length; i++){ 
+//     console.log(answers[i] +"\n" );
+    
+//     }
+
+
+
 
 var skip=confirm("do you wants to skip the welcoming message?")
 
@@ -61,7 +100,7 @@ else{
     }
 
 }
-console.log(nameu,gender,age);
+// console.log(nameu,gender,age);
 
 
 
